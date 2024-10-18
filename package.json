@@ -1,0 +1,20 @@
+{
+  "name": "portfolio_project",
+  "version": "1.0.0",
+  "description": "Sam Easton's Digital Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "nodemon": "nodemon -e js,html,css --watch ./src --watch ./client ./src/server.js",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "author": "Samuel Easton",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.31.0",
+    "nodemon": "^3.1.7"
+  }
+}
