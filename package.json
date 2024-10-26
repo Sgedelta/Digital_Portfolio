@@ -4,9 +4,9 @@
   "description": "Sam Easton's Digital Portfolio",
   "main": "server.js",
   "scripts": {
-    "nodemon": "nodemon -e js,html,css --watch ./src --watch ./client ./src/server.js",
-    "start": "node ./src/server.js",
-    "pretest": "eslint ./src --fix",
+    "nodemon": "nodemon -e js,html,css --watch ./server --watch ./client --watch ./views ./server/app.js",
+    "start": "node ./server/app.js",
+    "pretest": "eslint ./server --fix",
     "test": "echo \"Tests Complete\""
   },
   "author": "Samuel Easton",
@@ -16,5 +16,13 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.31.0",
     "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "compression": "^1.7.4",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "mongoose": "^8.7.2",
+    "serve-favicon": "^2.5.0"
   }
 }

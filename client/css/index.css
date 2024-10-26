@@ -1,0 +1,85 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+    --bg-color: #0c120c;
+    --text-color: #eafaea;
+    --acc-1: #3d6825;
+    --acc-2: #952dcf;
+    --acc-3: #22aaa1;
+
+    color: var(--text-color);
+    background-color: var(--bg-color);
+
+
+    display: grid;
+    grid-template-areas: 
+    "Logo Title   Title"
+    "Logo Content Content"
+    ".    Content Content";
+    grid-template-rows: max-content auto 33%;
+    grid-template-columns: 20% auto auto;
+    row-gap: 2%;
+
+
+
+}
+
+#TitleBar {
+    grid-area: Title;
+}
+
+#TitleName {
+    margin-bottom: -.15lh;
+}
+
+#Subtitle {
+    font-weight: 100;
+    font-size: 1.7em;
+}
+
+#ContentArea {
+    grid-area: Content;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 2.5lh, black calc(100% - 2.5lh), transparent 100%);
+
+    height: 750px;
+    width: 95%;
+    overflow-y: scroll;
+    padding-right: 1em;
+
+}
+
+#ContentArea p {
+    padding: 1lh 0;
+}
+
+#LogoDropdown {
+    grid-area: Logo
+}
+
+
+h1 {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 6em;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.acc1 {
+    color: var(--acc-1);
+}
+
+.acc2 {
+    color: var(--acc-2);
+}
+
+.acc3 {
+    color: var(--acc-3);
+}
+
