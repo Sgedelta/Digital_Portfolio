@@ -24,7 +24,7 @@ G.anim = gsap.to(G,
         ease: "power3.inOut",
     }).reversed(true); //set it to it's "end" (if using from, this would be false?)
 centerTri.anim = gsap.to(centerTri, {
-    strokeWidth: 100,
+    strokeWidth: 0,
 }).reversed(true)
 
 const DieAnimation = () => {
