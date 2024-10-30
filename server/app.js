@@ -12,7 +12,7 @@ const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
 const app = express();
 
-app.use('/assets', express.static(path.resolve(`${__dirname}/../client/`)));
+app.use('/assets', express.static(path.resolve(`${__dirname}/../hosted/`)));
 
 app.use(compression());
 
@@ -27,7 +27,7 @@ app.set('view engine', 'handlebars');
 
 app.set('views', `${__dirname}/../views`);
 
-app.use(favicon(`${__dirname}/../client/img/favicon.png`)); // TODO: MAKE LOGO
+app.use(favicon(`${__dirname}/../hosted/img/favicon.png`)); // TODO: MAKE LOGO
 
 router(app);
 

@@ -2,8 +2,11 @@
   "name": "portfolio_project",
   "version": "1.0.0",
   "description": "Sam Easton's Digital Portfolio",
-  "main": "server.js",
+  "main": "server/app.js",
   "scripts": {
+    "buildBundle": "webpack",
+    "watchBundle": "webpack watch",
+    "heroku-postbuild": "webpack --mode production",
     "nodemon": "nodemon -e js,html,css --watch ./server --watch ./client --watch ./views ./server/app.js",
     "start": "node ./server/app.js",
     "pretest": "eslint ./server --fix",
@@ -12,12 +15,20 @@
   "author": "Samuel Easton",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
     "eslint": "^8.57.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.31.0",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.25.9",
     "body-parser": "^1.20.3",
     "compression": "^1.7.4",
     "express": "^4.21.1",
