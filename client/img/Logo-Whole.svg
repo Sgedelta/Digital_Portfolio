@@ -1,30 +1,6 @@
-<html lang="en"></html>
-<head>
-  <meta charset="utf-8"/>
-
-  <link rel="stylesheet" type="text/css" href="../assets/css/index.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" defer></script>
-  <script src="../assets/js/animations.js" defer></script>
-
-  <title>{{title}}</title>
-</head>
-<body>
-
-<header id="TitleBar">
-    <h1 id="TitleName"><span class="acc1">S</span>amuel <span class="acc3">G</span>. <span class="acc2">E</span>aston</h1>
-    <p id="Subtitle">
-        <span class="acc3">Game Designer</span> <span class="acc1">•</span>
-        <span class="acc2">Programmer</span> <span class="acc1">•</span>
-        <span class="acc3">Web Developer</span> 
-    </p>
-</header>
-
-<main id="ContentArea">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellendus quaerat! Itaque vero amet sed dolore vel similique, excepturi sunt unde rerum, possimus numquam natus beatae delectus, tempora illo ex nisi! Natus iure incidunt reiciendis sint? Dolores neque tempora delectus odit omnis aspernatur error quia pariatur repudiandae voluptatem laudantium iusto, possimus ab eligendi dicta animi. Illum debitis facilis ipsa voluptas unde natus quidem temporibus obcaecati in, ut nostrum fugit non nobis vero, molestias culpa velit quia rerum iure commodi rem nisi delectus officiis fuga. Molestias, obcaecati! Eos dolore vero quidem ad iusto error accusamus maiores consectetur, nobis, ratione suscipit quaerat molestiae quod consequatur fugit, sit eligendi distinctio. Laborum perferendis quisquam possimus dignissimos ratione laboriosam voluptate quidem modi autem totam vel inventore voluptatibus aperiam odit ea, ut dolor ullam alias? Alias, accusantium officia. Ipsa accusamus sint at, animi mollitia dolores ratione atque, porro aspernatur maxime laboriosam officiis dolore harum dolorum eligendi fugiat? Commodi, ab aliquam obcaecati eligendi est temporibus ipsum culpa. Voluptatibus est vel rem modi impedit quisquam id? Nihil libero quam dolores error. Laborum minus eaque maiores sint veritatis eligendi beatae veniam modi, temporibus nihil officia rerum officiis quis numquam quam vel pariatur quod ducimus facilis? Corporis quas obcaecati labore aut praesentium quae aperiam quaerat, maiores, ex aliquid nobis deserunt! Quasi consequatur explicabo facere numquam animi iste libero quisquam maiores omnis, inventore laboriosam consectetur voluptas temporibus cupiditate eligendi maxime tempore fugiat! Deleniti delectus possimus quidem explicabo? Magni omnis exercitationem incidunt sequi libero dolores consequuntur autem neque, nulla veritatis. Fugit quibusdam accusamus quis quaerat. Nihil quod autem cupiditate mollitia quaerat aperiam facere aut incidunt reiciendis id ipsa quam molestias quas harum hic quia magni porro sequi vero, est voluptate. Eum pariatur ipsam nulla quasi quas? Laudantium commodi perspiciatis officiis optio ipsam, eum non natus architecto aliquam molestias ratione. Nemo doloribus debitis alias distinctio facere sequi. Hic dignissimos mollitia optio maiores ad eius rem sunt cum alias repellendus officia velit minus laboriosam exercitationem eaque harum illum molestias soluta perspiciatis, quisquam quam! Unde eos excepturi nemo sapiente iste vel magni reiciendis nam voluptates aliquid, perspiciatis beatae soluta optio consequatur, omnis quibusdam odio cum laudantium nesciunt porro voluptatibus explicabo! Numquam exercitationem corrupti recusandae rerum, ad magni facilis doloremque amet quam aliquid ipsum, corporis cumque eos, ea vero totam expedita illo molestiae? Eaque, quaerat saepe labore quasi quae nulla nihil distinctio, ipsam nostrum tempore earum quibusdam. Nemo, magnam dolorem. Dicta velit iure ipsam praesentium non molestiae doloribus optio nobis fuga harum perferendis, error repellat modi recusandae! Illo eius fuga excepturi corrupti consequuntur debitis blanditiis quisquam voluptate ipsa consequatur facere veritatis mollitia aliquam corporis, voluptatibus officia itaque sequi eaque facilis cumque, amet repellendus deserunt quaerat. Soluta sequi perferendis nisi, sapiente mollitia, qui suscipit molestias neque illum ipsum doloremque animi nam quas natus quos accusamus culpa assumenda enim delectus autem cumque veritatis provident! Minus molestias esse voluptatibus assumenda ipsum, sunt error, nostrum, ex obcaecati suscipit cumque facere dolore provident officia adipisci in libero fugit sed ratione magni illo beatae exercitationem animi pariatur. Ab harum blanditiis doloribus quibusdam?</p>
-</main>
-
-<div id="LogoDropdown">
-   <svg width="100%" height="100%" viewBox="0 0 2250 2250"version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1953px" height="2246px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
     <g transform="matrix(2.08333,0,0,2.08333,-150.06,-11.6707)">
         <g id="Outline" transform="matrix(1.53658,0,0,1.53658,27.424,-267.143)">
             <path d="M333.581,195.099l285.949,165.093l-0,330.184l-285.949,165.092l-285.948,-165.092l0,-330.184l285.948,-165.093Z" style="fill:none;stroke:#eafaea;stroke-width:19.52px;"/>
@@ -43,7 +19,7 @@
         <g transform="matrix(1,0,0,1,0,20)">
             <g id="Dice-Inner" serif:id="Dice Inner" transform="matrix(1,0,0,0.822493,0,23.688)">
                 <g id="CenterTri" transform="matrix(-1,-1.48895e-16,1.22465e-16,-1.21582,1169.96,1344.75)">
-                    <path d="M629.307,300.681l272.453,471.904l-544.906,-0l272.453,-471.904Z"/>
+                    <path d="M629.307,300.681l272.453,471.904l-544.906,-0l272.453,-471.904Z" style="fill:none;stroke:#eafaea;stroke-width:20px;stroke-linecap:butt;stroke-miterlimit:3.11047;"/>
                 </g>
                 <g id="UpperLeft" transform="matrix(1,0,0,1.21582,0,-53.1165)">
                     <path d="M104.701,287.546l162.394,89.355" style="fill:none;stroke:#eafaea;stroke-width:20px;stroke-linecap:butt;stroke-miterlimit:3.11047;"/>
@@ -87,17 +63,3 @@
         </g>
     </g>
 </svg>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-</body>
-</html>
