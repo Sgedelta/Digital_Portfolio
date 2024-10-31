@@ -4,12 +4,6 @@ g {
     overflow: hidden;
 }
 
-/* Set Up css FROM the inline SVG files. This allows us to futz with them with both CSS and js*/
-
 #CenterTri path {
-    fill:none;
     stroke:#eafaea;
-    stroke-width:20px;
-    stroke-linecap:butt;
-    stroke-miterlimit:3.11047;
 }
