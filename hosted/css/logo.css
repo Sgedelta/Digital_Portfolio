@@ -1,3 +1,9 @@
+/*
+This css file loads files specific for the display of the logo!
+Note that it should not be for positioning of the logo, only for display of the elements within
+Animation of the logo is handled with js using gsap
+
+*/
 g {
     /*Hide all group elements by default to prevent content flashing*/
     visibility: hidden;

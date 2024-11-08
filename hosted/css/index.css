@@ -11,7 +11,7 @@ body {
 
     color: var(--text-color);
     background-color: var(--bg-color);
-
+    font-family: 'Roboto', sans-serif;
 
     display: grid;
     grid-template-areas: 
@@ -19,50 +19,21 @@ body {
     "Logo Content Content"
     ".    Content Content";
     grid-template-rows: max-content auto 33%;
-    grid-template-columns: 20% auto auto;
+    grid-template-columns: 23% auto auto;
     row-gap: 2%;
 
+    height: 100vh;
 
 
 }
 
-#TitleBar {
-    grid-area: Title;
-}
-
-#TitleName {
-    margin-bottom: -.15lh;
-}
-
-#Subtitle {
-    font-weight: 500;
-    font-size: 1.7em;
-}
-
-
-#ContentArea {
-    grid-area: Content;
-    mask-image: linear-gradient(to bottom, transparent 0%, black 2.5lh, black calc(100% - 2.5lh), transparent 100%);
-
-    height: 750px;
-    width: 95%;
-    overflow-y: scroll;
-    padding-right: 1em;
-
-}
-
-#ContentArea p {
-    padding: 1lh 0;
-}
-
-#LogoDropdown {
-    grid-area: Logo;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-weight: 800;
 }
 
 
 h1 {
-    font-family: 'Open Sans', 'Roboto', sans-serif;
-    font-weight: 800;
     font-size: 6em;
 }
 
@@ -84,4 +55,134 @@ p {
 .acc3 {
     color: var(--acc-3);
 }
+
+
+
+#TitleBar {
+    grid-area: Title;
+}
+
+#TitleName {
+    margin-bottom: -.15lh;
+}
+
+#Subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+
+
+#ContentArea {
+    grid-area: Content;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 2.5lh, black calc(100vh - 2.5lh), transparent 100%);
+
+    height: 750px;
+    width: 95%;
+    overflow-y: scroll;
+    padding-right: 1em;
+    padding-top: .5lh;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contentSection {
+    padding: 1lh 0;
+    clear: both;
+}
+
+.contentSection h1 {
+    font-size: 3em;
+}
+
+.contentSection h2 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.contentSection img {
+    margin-right: 2%;
+    width: 33%;
+}
+
+.contentSection p {
+    padding: .5lh 0;
+}
+
+.contentSection .leftAligned {
+    left: 0;
+    float: left;
+}
+
+.contentSection .rightAligned {
+    right: 0;
+    float: right;
+}
+
+
+
+
+#LogoDropdown {
+    grid-area: Logo;
+}
+
+#pageOptionsVerticalBar {
+    float: left;
+    width: .2em;
+    height: 18em;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#pageOptions {
+    padding-left: 15%;
+    padding-top: 2em;
+    list-style-type: none;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+
+}
+
+#pageOptions li {
+    font-size: 1.8em;
+    color: var(--acc-1);
+    text-transform: lowercase;
+    transition: font-size .3s, font-weight .3s, color .5s;
+}   
+
+#pageOptions li input {
+    display: none;
+}
+
+#pageOptions label {
+    font-size: inherit;
+    transition: font-size .3s, font-weight .3s, color .5s;
+}
+
+#pageOptions li:hover {
+    font-size: 2.8em;
+    font-weight: 800;
+    color: var(--acc-3);
+    text-transform: uppercase;
+}
+
+#pageOptions label:active {
+
+    font-size: 1.1em;
+    font-weight: 800;
+    color: var(--acc-2);
+    text-transform: uppercase;
+}
+
+
+#pageOptions .selected {
+    font-size: 3em;
+    font-weight: 800;
+    color: var(--acc-2);
+    text-transform: uppercase;
+}
+
+
+
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
+    <path id="Outline" d="M540,32.644L979.384,286.322L979.384,793.678L540,1047.36L100.616,793.678L100.616,286.322L540,32.644Z" style="fill:none;stroke:#eafaea;stroke-width:30px;"/>
+    <g>
+        <g id="CodingLanguages">
+            <path id="PartThree" d="M106.885,387.133L106.885,475.804L100.441,540L106.885,599.443L106.885,687.281L90.578,575.358L90.578,501.258L106.885,387.133Z" style="fill:#eafaea;"/>
+            <path id="partTwo" d="M90.578,349.086L106.885,349.086L102.231,766.629L90.246,766.629L90.578,349.086Z" style="fill:#eafaea;"/>
+            <path id="partOne" d="M93.253,690.282L93.253,601.611L98.565,540L93.253,477.972L93.253,390.134L106.885,508.42L106.885,582.937L93.253,690.282Z" style="fill:#eafaea;"/>
+        </g>
+    </g>
+</svg>

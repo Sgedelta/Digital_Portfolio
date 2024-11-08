@@ -14,7 +14,7 @@ module.exports = {
        defining three entry points into bundles called "example1", "example2", and "example3".
     */
     entry: {
-        animations: './client/js/animations.js',
+        mainPage: './client/js/mainPage.js',
         // example2: './client/example2.jsx',
         // example3: './client/example3.jsx'
     },
