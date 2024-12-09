@@ -2,7 +2,11 @@
 @import url("fonts.css");
 @import url("logo.css");
 
-body {
+body{
+    display: none;
+}
+
+body.show {
     --bg-color: #0c120c;
     --text-color: #eafaea;
     --acc-1: #3d6825;
@@ -19,8 +23,9 @@ body {
     "Logo Content Content"
     ".    Content Content";
     grid-template-rows: max-content auto 33%;
-    grid-template-columns: 23% auto auto;
-    row-gap: 2%;
+    grid-template-columns: 18% auto auto;
+    column-gap: 20px;
+    row-gap: 5px;
 
     height: 100vh;
 
@@ -56,7 +61,44 @@ p {
     color: var(--acc-3);
 }
 
+.whiteBG {
+    background-color: #eafaea;
+    border-radius: 5%;
+    padding: 1%;
+}
 
+.smallText {
+    font-size: 1em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+a {
+    transition: color .05s;
+}
+
+a:link {
+    color: var(--acc-1);
+}
+
+a:visited {
+    color: var(--acc-2);
+}
+
+a:hover {
+    color: var(--acc-3);
+}
+
+a:active {
+    color: var(--text-color);
+}
+
+a.hideLink {
+    color: inherit;
+    text-decoration: inherit;
+}
 
 #TitleBar {
     grid-area: Title;
@@ -104,7 +146,12 @@ p {
 
 .contentSection img {
     margin-right: 2%;
-    width: 33%;
+    width: 28%;
+}
+
+.contentSection img.shrinkImage {
+    width: 18%;
+    margin: 2%;
 }
 
 .contentSection p {
@@ -114,11 +161,21 @@ p {
 .contentSection .leftAligned {
     left: 0;
     float: left;
+    text-align: left;
 }
 
 .contentSection .rightAligned {
     right: 0;
     float: right;
+    text-align: right;
+}
+
+.contentSection .clearLeft {
+    clear: left;
+}
+
+.contentSection .clearRight {
+    clear: right;
 }
 
 
@@ -160,8 +217,15 @@ p {
     transition: font-size .3s, font-weight .3s, color .5s;
 }
 
+#pageOptions .selected, #pageOptions li.selected:hover {
+    font-size: 2.7em;
+    font-weight: 800;
+    color: var(--acc-2);
+    text-transform: uppercase;
+}
+
 #pageOptions li:hover {
-    font-size: 2.8em;
+    font-size: 2.4em;
     font-weight: 800;
     color: var(--acc-3);
     text-transform: uppercase;
@@ -175,13 +239,12 @@ p {
     text-transform: uppercase;
 }
 
-
-#pageOptions .selected {
-    font-size: 3em;
-    font-weight: 800;
-    color: var(--acc-2);
-    text-transform: uppercase;
+.spamProtection {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
 }
+
+
 
 
 

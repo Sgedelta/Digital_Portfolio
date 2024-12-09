@@ -10,7 +10,8 @@
 
   <title>{{title}}</title>
 </head>
-<body>
+
+<body style="display:none">
 
 <header id="TitleBar">
     <h1 id="TitleName"><span class="acc1">S</span>amuel <span class="acc3">G</span>. <span class="acc2">E</span>aston</h1>
@@ -26,49 +27,133 @@
     <div id = "aboutContent">
 
         <section class = "contentSection">
-            <h1>About Me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis libero corporis laudantium ratione voluptas officia iusto incidunt aliquid obcaecati facere, nisi, consequatur eius nemo aspernatur quos illum doloribus officiis quaerat. Facilis suscipit eius ullam numquam accusamus, quasi consequuntur possimus quos beatae, corporis repudiandae magnam modi cum. Voluptas praesentium consectetur cumque sit adipisci, perferendis delectus voluptate quibusdam. Reprehenderit delectus perferendis quas, accusantium ipsum cum dolor quidem at molestias nisi nulla ullam iure reiciendis, labore itaque impedit, incidunt neque placeat sequi necessitatibus voluptates odit. Ipsam non tempore, et mollitia tenetur ab quibusdam ipsa quidem quo temporibus ea maxime necessitatibus adipisci a. Atque.</p>
+            <img src = "ADD IMAGE" alt = "An Image of Sam Easton" />
+            <h1>Hey! I'm Sam Easton</h1>
+            <p>A Game Designer, Web Developer, and Programmer - as well as a Third-Year student at Rochester Institute of Technology (RIT) 
+                persuing a Bachelor of Science in Game Design and Development. I'm also an Eagle Scout and active member of 
+                numerous campus activities, including serving as the Vice-President of Battery for the RIT Drumline for my second year.
+            </p>
+        </section>
+
+        <section class="contentSection">
+            <h1>Get To Know Me</h1>
+            
+            <h2 class="leftAligned clearLeft">Games</h2>
+            <p class="leftAligned clearLeft">
+                Games are obviously a passion of mine - from board and card games, tabletop roleplaying games, and other physical games to 
+                strategy, puzzle, shooter, and other video games. I've spent three years on the RIT Competitive Halo Team, as well as played 
+                in and run many roleplaying game systems for friends. Games are a large part of my life and I love finding out about new ones, 
+                so feel free to tell me about anything you know of! You can also see what I've been playing recently on my 
+                <a href="https://steamcommunity.com/id/Sgedelta/" target="blank" rel="noopener noreferrer">Steam</a>.
+            </p>
+
+            <h2 class="rightAligned clearRight">Music</h2>
+            <p class="rightAligned clearRight">
+                In addition to Programming and Game Design, I also love making and producing music. While I haven't released anything yet, 
+                it is a passion that I'm exploring through my music Immersion at RIT. I look forward to eventually making and releasing my own
+                music soon!
+            </p>
+            
+            <h2 class="leftAligned clearLeft">Clubs and Activities</h2>
+            <p class="leftAligned clearLeft">
+                I take part in multiple Clubs on RIT's Campus - mostly music related. I play as a percussionist in RIT's Pep Band at Hockey Games, 
+                and as part of RIT's Game Symphony Orchestra. I also serve as the Vice-President of battery for the RIT Drumline, where I teach 
+                others how to march and play various instruments, help plan and execute our custom written show, and make sure that we are competition ready.
+            </p>
+
+            <h2 class="rightAligned clearRight">??</h2>
+            <p class="rightAligned clearRight">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, veritatis?
+            </p>
 
         </section>
 
     </div>
 
-    <div id = "projectsContent">
+    <div id = "projectsContent" class="hidden">
         <section class = "contentSection">
-            <img class = "leftAligned" src="../assets/img/Aspera.png" alt="A black field with small white dots representing stars. In the middle is a spaceship, above which the Aspera logo sits">
-            <h1 class = "acc1">Aspera</h1> 
-            <h2>A Scifi-Fantasy Tabletop Roleplaying Game</h2>    
-            <p>Content!</p>
+            <a class ="hideLink" href="https://www.drivethrurpg.com/es/product/462948" target="_blank" rel="noopener noreferrer">
+                <img class = "leftAligned" src="../assets/img/Aspera.png" alt="A black field with small white dots representing stars. In the middle is a spaceship, above which the Aspera logo sits">
+                <h1 class = "acc1">Aspera</h1> 
+                <h2>A Scifi-Fantasy Tabletop Roleplaying Game</h2>
+            </a>
+            <p>Aspera is a Scifi-Fantasy Tabletop Roleplaying Game that I developed with a team as part of a class at RIT. 
+                Over the course of a semester, we took a concept from a single page of notes to an entire published book. 
+                After the semester was over, we continued to develop the game and grow the system further. 
+                You can download the rulebook for pay what you want <a href="https://www.drivethrurpg.com/es/product/462948" target="_blank" rel="noopener noreferrer">Here</a>. 
+            </p>
+
         </section>
 
         <section class = "contentSection">
-            <img class = "rightAligned" src="../assets/img/Aspera.png">
-            <h1 class = "acc1">Aspera</h1> 
-            <h2>A Scifi-Fantasy Tabletop Roleplaying Game</h2>    
-            <p>Content!</p>
+            <img class = "rightAligned" src="../assets/img/Collapsus.gif">
+            <h1 class = "acc1">Collapsus</h1> 
+            <h2>The Block Crunching Puzzle Game</h2>    
+            <p>During the summer of 2024, I worked for Wraith Games as an Intern - 
+                primarily working on refactoring the existing code base of Collapsus 
+                to work with features currently in development. </p>
         </section>
 
         <section class = "contentSection">
-            <img class = "leftAligned" src="../assets/img/Aspera.png">
-            <h1 class = "acc1">Aspera</h1> 
-            <h2>A Scifi-Fantasy Tabletop Roleplaying Game</h2>    
-            <p>Content!</p>
+            <a class ="hideLink" href="./herder" target="_blank" rel="noopener noreferrer">
+                <img class = "leftAligned" src="../assets/img/HerderTitle.png" alt="The Herder Title Screen - A black background with the title (\"Herder\") and a play button along the bottom">
+                <h1 class = "acc1">Herder</h1> 
+                <h2>A PixieJS game about keeping your Flock</h2>
+            </a>
+            <p>
+                Herder is a simple game designed as a class project, using PixieJS and Howler. 
+                The game uses a custom implementation of a Boids algorithm, as well as custom sound effects and music by me. 
+                You can play Herder <a href="./herder" target="_blank" rel="noopener noreferrer">Here</a>. 
+            </p>
+
+        </section>
+
+        <section class = "contentSection">
+            <a class = "hideLink" href="https://github.com/Sgedelta/Digital_Portfolio" target="_blank" rel="noopener noreferrer">
+                <img class = "rightAligned" src="../assets/img/Logo-NoBG.svg" alt="Samuel G Easton's Logo, a Hexagon with the initials S G and E inside.">
+                <h1 class = "acc1">This Portfolio</h1> 
+                <h2>A Webserver Designed by Me</h2>    
+            </a>
+            <p>
+                This Portfolio is a webserver that I designed and created myself, using a variety of technologies, including: Node, Express, Webpack, Handlebars, and more.
+                The server is hosted on Heroku using Continuous Integration through Github. 
+                View the source code <a href="https://github.com/Sgedelta/Digital_Portfolio" target="_blank" rel="noopener noreferrer">Here</a>.
+            </p>
         </section>
 
     </div>
 
-    <div id = "skillsContent">
+    <div id = "skillsContent"class="hidden">
 
 
     </div>
 
-    <div id = "experienceContent">
-
+    <div id = "experienceContent"class="hidden">
+        <section class = "contentSection">
+            <img class = "leftAligned shrinkImage whiteBG" src="../assets/img/Wraith_Logo_Square.png">
+            <h1 class = "acc1">Wraith Games</h1> 
+            <h2>My First Internship</h2>    
+            <p>During the summer of 2024, I worked for Wraith Games as an Intern - 
+                primarily working on refactoring the existing code base of Collapsus 
+                to work with features currently in development. I also worked on the 
+                Tabletop Roleplaying Game system TOME. </p>
+        </section>
 
     </div>
 
-    <div id = "contactContent">
-
+    <div id = "contactContent"class="hidden">
+        <section class="contentSection">
+            <h1>Reach Out!</h1>
+            <p>
+                If you have any questions, comments, or want to collaborate, you can find me in the following locations!
+            </p>
+            <p class = "smallText" style="padding: 0">Hover Over to reveal</p>
+            <p id="emailDisplay" class="spamProtection">sgea<!--spam@protect-->ston@gma<!--tion.com-->il.com</p>
+            <p id="phoneDisplay" class="spamProtection">(51<!--123-->3) 8<!--593 - 12-->82 <!--(528)-->- 63<!--123-53-->66</p>
+            <p>
+                You can also find my github <a href="https://github.com/Sgedelta/" target="_blank" rel="noopener noreferrer">Here</a>.
+            </p>
+        </section>
 
     </div>
 

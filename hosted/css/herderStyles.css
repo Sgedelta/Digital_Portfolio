@@ -1,0 +1,66 @@
+#gameHolder {
+    position: absolute;
+    display: block;
+    width: 2000px;
+    height: 2000px;
+    touch-action: none; 
+    cursor: inherit;
+    z-index: -10;
+}
+
+body {
+    background-color: #1a1a1a;
+    display: grid;
+    color: #00FF00;
+    font-family: 'Roboto Mono', monospace;
+    grid-template-columns: 8px 1fr 30px 50vw 30px 1fr 8px;
+    grid-template-rows: 130px 1fr;
+    grid-template-areas: 
+    "title   title     title  title  title  title   title "
+    "Spacer0 Content1 Spacer1 Game Spacer2 Content2 Spacer3";
+
+    overflow-x: hidden;
+}
+
+canvas {
+    grid-area: Game;
+    width: max( 50vw, 100%);
+    margin: 30px auto;
+}
+
+#rules {
+    grid-area: Content1;
+    font-size: 1.2em;
+}
+
+#howTo {
+    grid-area: Content2;
+    font-size: 1.2em;
+}
+
+#title {
+    grid-area: title;
+    font-size: 7em;
+    margin: 0px auto;
+}
+
+
+
+
+@media screen and (max-width: 957px) {
+    #title {
+        font-size: 12vw;
+    }   
+    
+    #rules #howTo {
+        font-size: 1em;
+    }
+}
+
+a:link {
+    color: #FF0000;
+}
+
+a:visited {
+    color: #8F0000;
+}

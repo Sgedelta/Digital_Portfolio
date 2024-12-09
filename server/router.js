@@ -5,10 +5,13 @@ const router = (app) => {
     // app.get('')
 
     // index page
-    app.get('/', controllers.index);
+    app.get('/', controllers.mainPage.index);
+
+    //Herder
+    app.get('/herder', controllers.projects.hostHerder);
 
     // 404 page
-    app.get('/*', controllers.notFound);
+    app.get('/*', controllers.mainPage.notFound);
 
     // post commands if there are any? - probably not.
 };

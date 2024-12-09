@@ -1,5 +1,5 @@
 const animationLogic = require('./animations.js');
-
+const contactInfoLogic = require('./contactInfo.js');
 
 
 
@@ -18,43 +18,47 @@ const contactContent = document.querySelector("#contactContent");
 
 const pageOptionClicked = (e) =>{
 
+    //prevent e.target null errors
+    if (!e.target) {
+        console.log("event target is null!");
+        return;
+    }    
+
     //remove class from all optionsChildren
     optionsChildren.forEach(element => {
         element.classList = "";
     });
 
 
-    aboutContent.style = "display:none";
-    projectsContent.style = "display:none";
-    skillsContent.style = "display:none";
-    experienceContent.style = "display:none";
-    contactContent.style = "display:none";
+    aboutContent.classList.add("hidden");
+    projectsContent.classList.add("hidden");
+    skillsContent.classList.add("hidden");
+    experienceContent.classList.add("hidden");
+    contactContent.classList.add("hidden");
 
-    if (!e.target) {
-        e.target = {};
-    }
+
 
     switch(e.target.value) {
         case "about":
         default:
             optionsChildren[0].classList = "selected";
-            aboutContent.style = "";
+            aboutContent.classList.remove("hidden");
             break;
         case "projects":
             optionsChildren[1].classList = "selected";
-            projectsContent.style = "";
+            projectsContent.classList.remove("hidden");
         break;
         case "skills":
             optionsChildren[2].classList = "selected";
-            skillsContent.style = "";
+            skillsContent.classList.remove("hidden");
         break;
         case "experience":
             optionsChildren[3].classList = "selected";
-            experienceContent.style = "";
+            experienceContent.classList.remove("hidden");
         break;
         case "contact":
             optionsChildren[4].classList = "selected";
-            contactContent.style = "";
+            contactContent.classList.remove("hidden");
         break;
 
 
@@ -72,7 +76,12 @@ for(let i = 0; i < optionsChildren.length; ++i) {
 
 const init = () => {
     animationLogic.animationSetup();
+    contactInfoLogic.contactInfoSetup();
     pageOptionClicked(optionsChildren[0]);
+
+    //show document, which is hidden by default
+    document.querySelector("body").style = "";
+    document.querySelector("body").classList.add("show");
 }
 
-init();
+window.onLoad = init();

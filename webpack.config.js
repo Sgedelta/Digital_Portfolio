@@ -15,7 +15,7 @@ module.exports = {
     */
     entry: {
         mainPage: './client/js/mainPage.js',
-        // example2: './client/example2.jsx',
+        herder: './client/js/Herder/main.js',
         // example3: './client/example3.jsx'
     },
 
