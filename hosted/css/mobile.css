@@ -1,0 +1,246 @@
+@media screen and (max-width: 1100px) {
+
+body.show {
+
+    grid-template-areas: 
+    "Logo    Title   Title"
+    "Sidebar Content Content"
+    ".       Content Content";
+
+    grid-template-rows: max-content auto 33%;
+    grid-template-columns: 18% auto auto;
+
+}
+
+#ContentArea {
+    margin-top: 1em;
+    margin-left: 2.5%;
+}
+
+h1 {
+    font-size: 5em;
+}
+    
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+
+.smallText {
+    font-size: 2em;
+}
+
+a {
+    transition: color .05s;
+}
+
+a:link {
+    color: var(--acc-1);
+}
+
+a:visited {
+    color: var(--acc-2);
+}
+
+a:hover {
+    color: var(--acc-3);
+}
+
+a:active {
+    color: var(--text-color);
+}
+
+a.hideLink {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#TitleBar {
+    grid-area: Title;
+}
+
+#TitleName {
+    margin-bottom: -.15lh;
+    margin-top: .3lh;
+}
+
+#Subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+
+#ContentArea {
+    grid-area: Content;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 2.5lh, black calc(100vh - 2.5lh), transparent 100%);
+
+    height: 80vh;
+    width: 95%;
+    overflow-y: scroll;
+    padding-right: 1em;
+    padding-top: .5lh;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contentSection {
+    padding: 1lh 0;
+    clear: both;
+}
+
+.contentSection h1 {
+    font-size: 4em;
+}
+
+.contentSection h2 {
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.contentSection img {
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 60%;
+    clear: both;
+}
+
+.contentSection img.shrinkImage {
+    width: 18%;
+    margin: 2%;
+}
+
+.contentSection p {
+    padding: .5lh 0;
+    padding-right: 10px;
+}
+
+.contentSection .leftAligned {
+    left: 0;
+    float: left;
+    text-align: left;
+}
+
+.contentSection .rightAligned {
+    right: 0;
+    float: right;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.contentSection .clearLeft {
+    clear: left;
+}
+
+.contentSection .clearRight {
+    clear: right;
+}
+
+#HeaderIMG {
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+
+
+#LogoDropdown {
+    grid-area: Sidebar;
+}
+
+#logo {
+    position: relative;
+    top: -28%;
+    left: 5%;
+}
+
+nav {
+    position: relative;
+    top: -33%;
+}
+
+#navButton {
+    position: relative;
+    width: 75%;
+    left: 10%;
+}
+
+#pageOptionsVerticalBar {
+    display: none;
+}
+
+#pageOptions {
+    position: relative;
+    list-style-type: none;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    background-color: var(--text-color);
+    border-radius: 2em;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 4em;
+    width: fit-content;
+    margin-top: 20px;
+    transition: left 1s;
+    left: 0px;
+
+}
+
+#pageOptions.offset {
+    left: -150%;
+
+}
+
+#pageOptions li {
+    font-size: 1.6em;
+    color: var(--acc-1);
+    text-transform: lowercase;
+    transition: font-size .3s, font-weight .3s, color .5s;
+    padding-top: 1lh;
+    padding-bottom: 1lh;
+}   
+
+#pageOptions li input {
+    display: none;
+}
+
+#pageOptions label {
+    font-size: inherit;
+    transition: font-size .3s, font-weight .3s, color .5s;
+}
+
+#pageOptions .selected, #pageOptions li.selected:hover {
+    font-size: 1.6em;
+    font-weight: 800;
+    color: var(--acc-2);
+    text-transform: uppercase;
+}
+
+#pageOptions li:hover {
+    font-size: 1.6em;
+    font-weight: 800;
+    color: var(--acc-3);
+    text-transform: uppercase;
+}
+
+#pageOptions label:active {
+
+    font-size: 1.1em;
+    font-weight: 800;
+    color: var(--acc-2);
+    text-transform: uppercase;
+}
+
+.spamProtection {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+
+
+
+}

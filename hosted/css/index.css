@@ -1,0 +1,59 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("logo.css");
+@import url("desktop.css");
+@import url("mobile.css");
+
+
+body{
+    display: none;
+}
+
+body.show {
+    --bg-color: #0c120c;
+    --text-color: #eafaea;
+    --acc-1: #3d6825;
+    --acc-2: #952dcf;
+    --acc-3: #22aaa1;
+
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+
+    display: grid;
+
+    column-gap: 20px;
+    row-gap: 5px;
+
+    height: 100vh;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+
+.acc1 {
+    color: var(--acc-1);
+}
+
+.acc2 {
+    color: var(--acc-2);
+}
+
+.acc3 {
+    color: var(--acc-3);
+}
+
+.whiteBG {
+    background-color: #eafaea;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.hidden {
+    display: none !important;
+}

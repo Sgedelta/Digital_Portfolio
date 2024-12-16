@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Herder</title>
+	<link href="../assets/css/herderStyles.css" rel="stylesheet" />
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+
+
+    <script src="../assets/herderbundle.js" defer></script>
+</head>
+<body>
+<!-- External libraries -->
+<!-- https://github.com/pixijs/pixi.js?utm_source=html5weekly -->
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/pixi.js/6.5.8/browser/pixi.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+<!--  https://github.com/goldfire/howler.js -->
+
+<div id="gameHolder"></div> 
+
+
+<div id = "rules">
+    
+    <h2>Welcome to Herder!</h2>
+    <p>Herder is a Game where you attempt to protect your Herd from a swarm of increasingly aggressive Hunters. 
+        You can't control your Herd, but you can protect them! Keep your Herd as large for as long as possible 
+        to try and beat your High Score!</p>
+
+    <br>
+    <h2>Documentation</h2>
+    <p>Sound effects made using <a href = "https://sfxr.me/">jsfxr</a>. Everything else made by Me!</p>
+</div>
+
+<div id = "howTo">
+    <p>Click on Hunters as they approach your Herd to kill them. Your Herd will grow when they Eat Food 
+        (spawned randomly across the screen). Hunters will speed up and spawn additional Hunters for every
+        five members of your Herd they Eat. More Hunters and more Food will spawn when all Hunters are eliminated.
+        You get a Bonus to your Score when you lose a member of your Herd after your Herd reaches it's largest size. 
+        The larger your Herd, the more Hunters will spawn!</p>
+</div>
+
+<h1 id = "title">
+    H E R D E R
+</h1>
+
+</body>
+</html>
