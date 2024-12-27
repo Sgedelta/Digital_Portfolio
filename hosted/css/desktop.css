@@ -70,9 +70,9 @@ a.hideLink {
 
 #ContentArea {
     grid-area: Content;
-    mask-image: linear-gradient(to bottom, transparent 0%, black 2.5lh, black calc(100vh - 2.5lh), transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 2.5lh, black calc(100% - 2.5lh), transparent 100%);
 
-    height: 750px;
+    height: 600px;
     width: 95%;
     overflow-y: scroll;
     padding-right: 1em;

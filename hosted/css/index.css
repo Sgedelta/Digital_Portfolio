@@ -25,7 +25,9 @@ body.show {
     column-gap: 20px;
     row-gap: 5px;
 
-    height: 100vh;
+
+    height: 100%;    
+    overflow-y: hidden;
 
 
 }
