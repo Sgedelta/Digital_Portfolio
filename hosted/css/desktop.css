@@ -83,6 +83,10 @@ a.hideLink {
     flex-direction: column;
 }
 
+#getToKnowHeader {
+    margin-bottom: .1em;
+}
+
 .contentSection {
     padding: 1lh 0;
     clear: both;

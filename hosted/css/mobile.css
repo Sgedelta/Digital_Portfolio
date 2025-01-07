@@ -169,6 +169,12 @@ nav {
     left: 10%;
 }
 
+#navButton img {
+    width: 75%;
+    left: 10%;
+    position: relative;
+}
+
 #pageOptionsVerticalBar {
     display: none;
 }
