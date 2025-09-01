@@ -58,7 +58,8 @@ a.hideLink {
 }
 
 #TitleName {
-    margin-bottom: -.15lh;
+    margin-bottom: -0.15lh;
+    margin-top:0.15lh;
 }
 
 #Subtitle {
@@ -85,6 +86,13 @@ a.hideLink {
 
 #getToKnowHeader {
     margin-bottom: .1em;
+}
+
+.contentSectionWrapper > .contentSection:last-child {
+
+    margin-bottom: 2em;
+    height: max-content;
+
 }
 
 .contentSection {
